@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('stage2/Print Message') {
+    stage('Print') {
       steps {
-        sh 'echo "Print"'
+        echo 'Pipline is complete'
       }
     }
 
